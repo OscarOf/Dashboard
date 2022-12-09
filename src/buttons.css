@@ -1,0 +1,20 @@
+.button{
+    border: 0;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: -webkit-center;
+}
+
+.button1{
+    background: #CAF7EA;
+    color: black;
+}
+
+.button2,
+.button3,
+.button4,
+.button5{
+    background: #02735E;
+    color: white;
+}

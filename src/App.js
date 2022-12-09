@@ -2,6 +2,7 @@ import {useEffect, useState} from 'react'
 import "./App.css"; 
 import axios from 'axios'; 
 import TableCoins from './TableCoins';
+import {Buttons} from "./Buttons";
 
 export default function App() {
   const [coins, setCoins] = useState([])
@@ -16,6 +17,7 @@ export default function App() {
   return (
     <div className='App'>
       <TableCoins coins={coins}/>
+      <Buttons/>
     </div>
   )
 }
